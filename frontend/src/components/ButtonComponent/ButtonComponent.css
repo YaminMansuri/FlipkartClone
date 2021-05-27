@@ -1,0 +1,25 @@
+.btn-primary {
+	display: inline-block;
+	width: 200px;
+	padding: 1.2rem 2.51rem;
+	border: none;
+	color: var(--pure);
+	font-size: 0.9rem;
+	margin: 0.2rem;
+	font-weight: bold;
+	border-radius: 0.2rem;
+	text-decoration: none;
+    text-align: center;
+}
+
+.yellow-btn {
+	background-color: var(--yellow);
+}
+
+.orange-btn {
+	background-color: var(--orange);
+}
+
+.width-auto {
+    width: auto;
+}

@@ -1,0 +1,16 @@
+.card {
+	position: relative;
+	width: 98%;
+	background-color: white;
+	margin: 10px auto;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px rgb(212, 212, 212), -1px -1px 10px rgb(212, 212, 212);
+}
+
+.padding-10 {
+	padding: 10px;
+}
+
+.margin-side-10 {
+	margin: 10px;
+}

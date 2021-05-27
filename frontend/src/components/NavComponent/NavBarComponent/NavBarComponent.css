@@ -1,0 +1,29 @@
+.nav-bar-container {
+	background-color: var(--primary);
+	color: var(--pure);
+	padding: 0.7rem;
+	position: sticky;
+}
+
+.nav-bar {
+	width: 75%;
+	margin: auto;
+}
+
+.logo {
+	margin-right: 1rem;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: var(--pure);
+	text-decoration: none;
+	margin: auto 1rem;
+}
+
+.cart {
+	margin: auto;
+}
+
+.icon-cart {
+	margin-right: 0.5rem;
+}

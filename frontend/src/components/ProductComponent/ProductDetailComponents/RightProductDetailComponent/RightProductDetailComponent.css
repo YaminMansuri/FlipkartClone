@@ -1,0 +1,35 @@
+.right-container {
+	margin: 0 2rem;
+}
+
+.right__product-name {
+	font-size: 1.5rem;
+}
+
+.right__product-price {
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin: 1rem 0;
+}
+
+.right__label-product {
+	color: var(--secondary);
+	font-weight: 500;
+	margin: 1rem 0;
+}
+
+.right__product-line-height {
+	line-height: 1.7rem;
+}
+
+.right__product-highlights ul li {
+	color: #3d3d3d;
+}
+
+.right__product-details {
+	color: #3d3d3d;
+}
+
+.right {
+	background-color: red;
+}
