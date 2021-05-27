@@ -3,6 +3,7 @@ import "./util/util.css";
 
 import { Route, Switch } from "react-router";
 import { BrowserRouter } from "react-router-dom";
+import FreshPage from "./pages/FreshPage/FreshPage";
 import HomePage from "./pages/HomePage/HomePage";
 
 import "./App.css";
@@ -13,29 +14,21 @@ import OrderPlacedPage from "./pages/OrderPlacedPage/OrderPlacedPage";
 
 const App = () => {
 	return (
-    <BrowserRouter>
-      <NavBarComponent />
-      <Switch>
-        <Route path="/FlipkartClone" exact component={HomePage} />
-        <Route
-          path="/FlipkartClone/product/:id"
-          exact
-          component={ProductDetailPage}
-        />
+		<BrowserRouter>
+			<NavBarComponent />
+			<Switch>
+				<Route path="/" exact component={HomePage} />
+				<Route path="/product/:id" exact component={ProductDetailPage} />
 
-        <Route
-          path="/FlipkartClone/product/buy-now/:id"
-          exact
-          component={BuyNowPage}
-        />
-        <Route
-          path="/FlipkartClone/product/buy-now/order-placed/:id"
-          exact
-          component={OrderPlacedPage}
-        />
-      </Switch>
-    </BrowserRouter>
-  );
+				<Route path="/product/buy-now/:id" exact component={BuyNowPage} />
+				<Route
+					path="/product/buy-now/order-placed/:id"
+					exact
+					component={OrderPlacedPage}
+				/>
+			</Switch>
+		</BrowserRouter>
+	);
 };
 
 export default App;

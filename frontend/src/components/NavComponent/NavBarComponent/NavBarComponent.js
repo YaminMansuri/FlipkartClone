@@ -8,19 +8,19 @@ import "./NavBarComponent.css";
 
 const NavBarComponent = () => {
 	return (
-    <div className="nav-bar-container">
-      <nav className="nav-bar util-flex">
-        <Link to="/FlipkartClone/" className="logo">
-          Flipkart
-        </Link>
-        <SearchComponent />
-        <span className="cart">
-          <FontAwesomeIcon icon={faShoppingCart} className="icon-cart" />
-          <span>Cart</span>
-        </span>
-      </nav>
-    </div>
-  );
+		<div className="nav-bar-container">
+			<nav className="nav-bar util-flex">
+				<Link to="/" className="logo">
+					Flipkart
+				</Link>
+				<SearchComponent />
+				<span className="cart">
+					<FontAwesomeIcon icon={faShoppingCart} className="icon-cart" />
+					<span>Cart</span>
+				</span>
+			</nav>
+		</div>
+	);
 };
 
 export default NavBarComponent;
