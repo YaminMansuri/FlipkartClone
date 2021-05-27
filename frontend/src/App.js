@@ -3,7 +3,6 @@ import "./util/util.css";
 
 import { Route, Switch } from "react-router";
 import { BrowserRouter } from "react-router-dom";
-import FreshPage from "./pages/FreshPage/FreshPage";
 import HomePage from "./pages/HomePage/HomePage";
 
 import "./App.css";
@@ -18,7 +17,6 @@ const App = () => {
 			<NavBarComponent />
 			<Switch>
 				<Route path="/" exact component={HomePage} />
-				<Route path="/fresh" exact component={FreshPage} />
 				<Route path="/product/:id" exact component={ProductDetailPage} />
 
 				<Route path="/product/buy-now/:id" exact component={BuyNowPage} />
