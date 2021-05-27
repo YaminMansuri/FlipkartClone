@@ -10,7 +10,7 @@ const NavBarComponent = () => {
 	return (
     <div className="nav-bar-container">
       <nav className="nav-bar util-flex">
-        <Link to="/FlipkartClone" className="logo">
+        <Link to="/FlipkartClone/" className="logo">
           Flipkart
         </Link>
         <SearchComponent />
