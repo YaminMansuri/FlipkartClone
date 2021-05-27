@@ -8,7 +8,6 @@ const ProductListComponent = (props) => {
 				return (
 					<>
 						<ProductItemComponent
-							// _id={product._id}
 							product={product}
 							key={product._id}
 						/>

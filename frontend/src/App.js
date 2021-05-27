@@ -13,21 +13,29 @@ import OrderPlacedPage from "./pages/OrderPlacedPage/OrderPlacedPage";
 
 const App = () => {
 	return (
-		<BrowserRouter>
-			<NavBarComponent />
-			<Switch>
-				<Route path="/" component={HomePage} />
-				<Route path="/product/:id" exact component={ProductDetailPage} />
+    <BrowserRouter>
+      <NavBarComponent />
+      <Switch>
+        <Route path="/FlipkartClone" exact component={HomePage} />
+        <Route
+          path="/FlipkartClone/product/:id"
+          exact
+          component={ProductDetailPage}
+        />
 
-				<Route path="/product/buy-now/:id" exact component={BuyNowPage} />
-				<Route
-					path="/product/buy-now/order-placed/:id"
-					exact
-					component={OrderPlacedPage}
-				/>
-			</Switch>
-		</BrowserRouter>
-	);
+        <Route
+          path="/FlipkartClone/product/buy-now/:id"
+          exact
+          component={BuyNowPage}
+        />
+        <Route
+          path="/FlipkartClone/product/buy-now/order-placed/:id"
+          exact
+          component={OrderPlacedPage}
+        />
+      </Switch>
+    </BrowserRouter>
+  );
 };
 
 export default App;
