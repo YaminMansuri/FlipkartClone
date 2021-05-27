@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FlipkartClone/static/css/main.8c7f2c54.chunk.css",
+    "main.js": "/FlipkartClone/static/js/main.be7b3c2d.chunk.js",
+    "main.js.map": "/FlipkartClone/static/js/main.be7b3c2d.chunk.js.map",
+    "runtime-main.js": "/FlipkartClone/static/js/runtime-main.527889b5.js",
+    "runtime-main.js.map": "/FlipkartClone/static/js/runtime-main.527889b5.js.map",
+    "static/js/2.257356d1.chunk.js": "/FlipkartClone/static/js/2.257356d1.chunk.js",
+    "static/js/2.257356d1.chunk.js.map": "/FlipkartClone/static/js/2.257356d1.chunk.js.map",
+    "static/js/3.079d39d6.chunk.js": "/FlipkartClone/static/js/3.079d39d6.chunk.js",
+    "static/js/3.079d39d6.chunk.js.map": "/FlipkartClone/static/js/3.079d39d6.chunk.js.map",
+    "index.html": "/FlipkartClone/index.html",
+    "static/css/main.8c7f2c54.chunk.css.map": "/FlipkartClone/static/css/main.8c7f2c54.chunk.css.map",
+    "static/js/2.257356d1.chunk.js.LICENSE.txt": "/FlipkartClone/static/js/2.257356d1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.527889b5.js",
+    "static/js/2.257356d1.chunk.js",
+    "static/css/main.8c7f2c54.chunk.css",
+    "static/js/main.be7b3c2d.chunk.js"
+  ]
+}
